@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     btn.addEventListener("click", function (event) {
         event.preventDefault();
-        let item = document.createElement('li');
+        if(inpt.value!=''){
+            let item = document.createElement('li');
         item.innerText = inpt.value;
         arr.push(item);
         inpt.value = '';
@@ -26,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Append all items in the array to the listt using a loop
         for (let i = 0; i < arr.length; i++) {
             listt.appendChild(arr[i]);
+        }
+        }
+        else{
+            alert("OOps!!! You Haven't Entered Anything");
         }
     });
 
@@ -45,7 +50,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
-        } else {
+        } else if(del.value=='')
+        {
+            alert("OOps!!! You Haven't Entered Anything");
+        }
+        else {
             alert(`${del.value} isn't available in the list`);
         }
         
@@ -56,10 +65,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         event.preventDefault();
         let uval= Number(inptu.value);
-        
-
-        
-        
         if (arr.length > (uval - 1) && uval > 0) {
             var myElement = document.querySelector('.infoU');
             myElement.style.display = 'block';
@@ -78,8 +83,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     listt.appendChild(arr[i]);
                 }
             }
-        } else {
-            alert(`${del.value} isn't available in the list`);
+        }  
+        else if(uval=='')
+        {
+            alert("OOps!!! You Haven't Entered Anything");
+        }
+        else
+         {
+            alert(`${uval} isn't available in the list`);
         }
     })
     
