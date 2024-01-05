@@ -23,7 +23,18 @@ A simple and elegant ToDo web application built with HTML, CSS, and JavaScript. 
 
 ## Live Demo
 
-Check out the live demo [here](your-github-username.github.io/your-repository-name](https://rspingale.github.io/EzSchedule-Js-web-app/).
+
+![image](https://github.com/Rspingale/EzSchedule-Js-web-app/assets/105566017/633c572d-1833-4a60-b7a1-d64b2e0b8174)
+
+![image](https://github.com/Rspingale/EzSchedule-Js-web-app/assets/105566017/96f51bf2-5a7a-409c-a618-5317438b4845)
+
+![image](https://github.com/Rspingale/EzSchedule-Js-web-app/assets/105566017/3df75448-f04f-49fd-b716-df46d74e0067)
+
+![image](https://github.com/Rspingale/EzSchedule-Js-web-app/assets/105566017/5488cc49-f9f9-4346-a928-4524da1c0cc2)
+
+
+
+Check out the live demo [here](https://rspingale.github.io/EzSchedule-Js-web-app/).
 
 ## Contributions
 
